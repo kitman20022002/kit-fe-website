@@ -1,0 +1,25 @@
+article {
+  margin-top: 100px;
+  h2 {
+    font-size: 30px !important;
+    line-height: 60px !important;
+    color: #484848 !important;
+    margin-top: 70px;
+    &::after {
+      content: "";
+      position: relative;
+      display: block;
+      width: 10rem;
+      height: 3px;
+      border-radius: 5px;
+      background-color: #01d1a7;
+    }
+  }
+  h3 {
+    font-size: 25px !important;
+    &::after {
+      width: 0;
+      height: 0;
+    }
+  }
+}

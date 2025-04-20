@@ -1,0 +1,44 @@
+.list{
+    list-style: none;
+    margin-bottom: 60px;
+    padding: 0;
+}
+
+.list__item{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    margin: 20px 0 ;
+    cursor: pointer;
+}
+
+.list__item p{
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.list__item path{
+    color: #4d00ff;
+}
+.h2{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+    .textContainer{
+        width: 100%;
+        margin: 20px;
+    }
+
+    .list__item{
+        margin: 10px 0 ;
+    }
+
+    .list__item p{
+        font-size: 20px;
+    }
+
+    .h2{
+        font-size: 30px;
+    }
+}

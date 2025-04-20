@@ -1,0 +1,30 @@
+.section__de{
+  background: linear-gradient(
+                  150deg, rgba(40, 20, 131, 0.76) 15%, rgba(143, 110, 213, 0.89) 70%, rgba(215, 130, 217, 0.74) 94%);
+  font-size: 0;
+  position: relative;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.de__img{
+  position: absolute!important;
+  bottom: 0!important;
+  width: 100% !important;
+  height: auto!important;
+}
+
+
+@media screen and (max-width: 1280px) {
+  .section__de {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__de{
+    min-height: 200px;
+  }
+}
