@@ -1,0 +1,96 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  min-width: 260px;
+}
+
+button {
+  font-family: "Poppins", sans-serif !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #32333c;
+  font-weight: 600;
+  font-size: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  color: #666;
+  font-weight: 400;
+  font-size: 23px;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 23px;
+  padding: 0;
+  margin: 0;
+  color: #666;
+}
+
+b {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 814px) {
+  header {
+    background: white;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  a {
+    color: #457bfc;
+    font-weight: 700;
+  }
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+  border-radius: 10px;
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus {
+  outline: none;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+.item-title {
+  margin: 0px 0 20px 0;
+}
+
+@media screen and (max-width: 814px) {
+  .mobile-menu {
+    display: block;
+    font-size: 25px;
+  }
+}

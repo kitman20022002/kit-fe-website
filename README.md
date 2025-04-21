@@ -1,60 +1,36 @@
-<!-- ABOUT THE PROJECT -->
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## About The Project
+## Getting Started
 
-Kit Skills is a project that shows kitman skills
+First, run the development server:
 
-### Tech Stack
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- Next
-- React
-- Typescript
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Installation
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-Below are the command that you would need to run after clone down the repo, unless to told these command usually would need to be run only once
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-- npm install
+## Learn More
 
-### Start up
+To learn more about Next.js, take a look at the following resources:
 
-To able to start the server these are the following commands that would need to be run
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- npm run dev
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-### Environments
+## Deploy on Vercel
 
-Environments for web development are the tools and configurations used by developers to create, test, and deploy web applications. These environments include local development, staging, and production, and are optimized for performance, reliability, and security.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-- Local: http://localhost:3000(NOTE: Must run under localhost:3000 else will not work)
-
-- Production: https://skills.kitmanyiu.com
-
-## Folder structure
-
-See next.js documentation
-
-## Roadmap
-
-n/a
-
-## Tests
-
-n/a
-
-## Contributing
-
-Kitman Yiu
-
-## License
-
-## Contact
-
-Kitman Yiu - [Kitman Yiu](www.kitmanyiu.com)
-
-## Coding Standard
-
-- Eslint Airbnb
-- Prettier
-- Sonar
-- https://www.notion.so/Coding-Guidelines-bfa77d75476a4b19a195ddb20b02bb33
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

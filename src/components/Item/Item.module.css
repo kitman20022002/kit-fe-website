@@ -1,0 +1,91 @@
+.card {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.card:hover{
+    cursor: pointer;
+    background: transparent;
+    outline: none;
+}
+.card:focus, .card:active, .card::selection{
+    outline: none;
+    background-color: transparent;
+}
+.card:hover .card__icon {
+    -webkit-animation: upNdown 3s infinite linear;
+    animation: upNdown 3s infinite linear;
+}
+
+@-webkit-keyframes upNdown {
+    0% { }
+    25% { transform: translateY(-5px); }
+    75%{ transform: translateY(5px);}
+    100% { }
+}
+@keyframes upNdown {
+    0% { }
+    25% { transform: translateY(-5px);}
+    75%{ transform: translateY(5px);}
+    100% { }
+}
+
+.card h3 {
+    margin: 0;
+    width: 30%;
+    text-align: left;
+}
+
+.card p {
+    width: 60%;
+    text-align: left;
+}
+
+.card__icon {
+    font-size: 40px;
+    color: #e1e2e5;
+    margin:  0 5% 0 0;
+    transition: all .25s ease-in-out;
+}
+
+.card a {
+    display: none;
+}
+
+@media screen and (max-width: 814px) {
+    .card {
+        width: 100%;
+        margin: 10px 0;
+        flex-wrap: wrap;
+    }
+
+    .card h3 {
+        margin-top: 5px;
+        width: 70%;
+    }
+
+    .card p {
+        min-height: unset;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .card a {
+        text-transform: unset;
+        font-size: 14px;
+        text-align: right;
+        color: #457bfc;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .card {
+        width: 100%;
+    }
+
+    .card a {
+        display: revert;
+    }
+}

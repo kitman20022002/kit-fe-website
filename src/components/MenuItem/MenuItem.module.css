@@ -1,0 +1,119 @@
+
+.active {
+    color: #457bfc;
+    position: relative;
+}
+
+.menu__link__parent a{
+    text-decoration: none;;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: inherit;
+    color:inherit;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu__link:active{
+    background: transparent;
+}
+
+.menu__link:visited {
+    color: inherit;
+}
+
+.li a{
+    text-decoration: none;
+    color:inherit;
+   
+}
+
+.li:hover:before, .active:before {
+    width: 30px;
+}
+
+.li:hover, .active {
+    color: #457bfc;
+    cursor: pointer;
+}
+
+.li, .active {
+    position: relative;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    list-style: none;
+    margin-left: 42px;
+}
+
+.li:before, .active:before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #457bfc;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.active:before {
+    position: absolute;
+    content: "";
+    bottom: -5px;
+    left: 0;
+    width: 30px;
+    height: 2px;
+    background: #457bfc;
+    transition: all 0.3s;
+}
+
+@keyframes movement {
+    0% {
+        transform: translateX(50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+.animation {
+    transform: translateX(50%);
+    opacity: 0;
+    animation-name: movement;
+    animation-duration: 1s;
+    -webkit-animation-name: movement;
+    -webkit-animation-duration: 1s;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+}
+
+.animation:nth-child(2) {
+    animation-delay: .25s;
+    -webkit-animation-delay: .25s;
+}
+
+.animation:nth-child(3) {
+    animation-delay: .50s;
+    -webkit-animation-delay: .50s;
+}
+
+.animation:nth-child(4) {
+    animation-delay: .75s;
+    -webkit-animation-delay: .75s;
+}
+
+.animation:nth-child(5) {
+    animation-delay: 1s;
+    -webkit-animation-delay: 1s;
+}
+
+

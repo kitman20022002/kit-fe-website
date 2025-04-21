@@ -1,0 +1,18 @@
+.card__resume {
+    padding: 0;
+}
+#employment-timeline::before {
+    background: #007AFF;
+    margin-left: -4px !important;
+    left: 0;
+}
+
+.timeline {
+    border-left: 2px solid #e0e0e0;
+    padding: 15px 0;
+}
+.resume{
+    right: unset;
+    left:30px;
+}
+
