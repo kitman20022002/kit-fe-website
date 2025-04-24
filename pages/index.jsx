@@ -3,7 +3,6 @@ import Link from "next/link";
 import Header from "../src/components/Header/Header";
 import style from "./index.module.css";
 import global from "../src/components/Global/global.module.css";
-import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../public/img/kitman.png";
 import shape from "../public/img/shape.png";
