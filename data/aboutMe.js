@@ -1,11 +1,11 @@
 import { MdNaturePeople, MdQuestionAnswer, MdBook } from "react-icons/md";
-import configuration from '../config/config';
+import configuration from "../config/config";
 
 export const introData = {
   twitter: "https://twitter.com/kitman_yiu",
   linkedIn: "https://www.linkedin.com/in/kitman-yiu/",
   facebook: "https://twitter.com/kitman_yiu",
-  github: "https://github.com/kitman20022002",
+  github: "https://github.com/oceanicshadow88",
   title: "Full Stack Developer",
   status: "Available",
   location: "Sydney, Australia",
