@@ -4,10 +4,11 @@ module.exports = {
       process.env.EMAIL_API ||
       "https://k80xjne6bd.execute-api.ap-southeast-2.amazonaws.com",
     admin_backend_api:
-      process.env.ADMIN_API || "kit-be-admin-production.up.railway.app/api/v1",
+      process.env.ADMIN_API ||
+      "https://kit-be-admin-production.up.railway.app/api/v1",
     skills_backend_api:
       process.env.SKILLS_API ||
-      "kit-be-skills-production.up.railway.app/api/v1",
+      "https://kit-be-skills-production.up.railway.app/api/v1",
     skills_frontend: "https://skills.kitmanyiu.com/",
   },
 };
